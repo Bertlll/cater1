@@ -1,0 +1,138 @@
+
+
+@import "../assets/fonts/Inter/inter";
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+
+//Typography------------------------------------------------
+.poppins-thin       {font-family: 'Poppins thin' !important;}
+.poppins-extralight {font-family: 'Poppins extralight' !important;}
+.poppins-light      {font-family: 'Poppins light' !important;}
+.poppins            {font-family: 'Poppins' !important;}
+.poppins-medium     {font-family: 'Poppins medium' !important;}
+.poppins-bold       {font-family: 'Poppins bold' !important;}
+.poppins-extrabold  {font-family: 'Poppins extrabold' !important;}
+.poppins-black      {font-family: 'Poppins black' !important;}
+
+
+.tx-thin        {font-weight: 100 !important};
+.tx-extralight  {font-weight: 200 !important};
+.tx-light       {font-weight: 300 !important};
+.tx-regular     {font-weight: 400 !important};
+.tx-medium      {font-weight: 500 !important};
+.tx-semibold    {font-weight: 600 !important};
+.tx-bold        {font-weight: 700 !important};
+.tx-extrabold   {font-weight: 800 !important};
+.tx-black       {font-weight: 900 !important};
+
+
+
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../node_modules/bulma/sass/utilities/functions.sass";
+
+//Custom Color Variables
+
+$black: #262626;
+$light: #F2F2F2;
+
+$orange: #ff9900;
+$accent: #32399c;
+
+$blue: $accent;
+
+
+$family-sans-serif: "Helvetica", "SF Pro Display", "Inter", "Roboto",sans-serif;
+
+//Override Bulma Colors
+
+$primary: $orange;
+$primary-invert: $light;
+
+//Override Bulma font-family
+
+$family-primary: $family-sans-serif;
+$fontinit: 16px !default;
+
+//Custom Colors
+
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+$ptint: #ffcd73;
+$ptint-invert: findColorInvert($ptint);
+
+
+@import "../node_modules/bulma/sass/utilities/derived-variables.sass";
+
+
+$addColors: (
+  "twitter":($twitter, $twitter-invert),
+  "linkedin": ($linkedin, $linkedin-invert),
+  "github": ($github, $github-invert),
+  "primarytint": ($ptint, $ptint-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+//---------text colors---------------
+
+.tx-clight  {color: $light !important;}
+.tx-cblack  {color: $black !important;}
+.tx-cprime  {color: $primary !important;}
+.tx-cptint  {color: $ptint !important;}
+.tx-caccent {color: $accent !important;}
+
+//---------bg colors---------------
+
+.bg-clight  {background-color: $light !important;}
+.bg-cblack  {background-color: $black !important;}
+.bg-cprime  {background-color: $primary !important;}
+.bg-cptint  {background-color: $ptint !important;}
+.bg-caccent {background-color: $accent !important;}
+
+@import "../node_modules/bulma/bulma.sass";
+
+//Custom=-===================-=-=-==-=-=--=-============
+
+a{
+  display: flex;
+  img{
+
+    align-self: flex-end;
+    object-fit: cover;
+  }
+
+}
+
+.class{
+  min-width: 7rem !important; 
+}
+
+input[type=submit]  {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  text-decoration: none;
+  padding: none;
+}
+
+.scrollable{
+  overflow: auto !important;
+}
+
+//---------Responsive-------------
+
+@mixin desktop{
+  @media (min-width: #{$desktop}){
+    @content;
+  }
+}
+
+#signInDrop{
+  @include desktop{
+    min-width: 250px;
+    width: 22vw;
+    max-width: 325px;
+  }
+}

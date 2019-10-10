@@ -1,0 +1,102 @@
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  /*color: orange;*/
+  /*margin-right: 30px;*/
+}
+
+#sign1 {
+  background-color: orange;
+  color: white;
+  margin-right: 30px;
+}
+
+#sign2 {
+  background-color: orange;
+  color: white;
+}
+
+#spacing {
+  margin-top: 5%;
+}
+
+#middle {
+}
+
+#middle .jumbotron {
+  background-color: orange;
+}
+
+.navbar > .container, .navbar > .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width:768px) {
+  .navbar-expand-md > .container, .navbar-expand-md > .container {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+#first .jumbotron {
+  background-color: white;
+  padding: 5% 0 0 10%;
+}
+
+#middle {
+  background-color: orange;
+  margin-top: 200px;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  /*border-radius: .3rem;*/
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  padding: 15px;
+  background-color: #292b2c;
+}
+
+.dropdown-item {
+  color: orange;
+}
+
+#navcol-1 .p {
+  color: orange;
+}
+
+#form {
+  color: orange;
+  margin-bottom: 0;
+  margin-top: 3%;
+}
+
+#item {
+  color: orange;
+}
+
+#item1 {
+  color: white;
+  background-color: orange;
+  margin-right: 10px;
+}
+
+#but {
+  color: white;
+  background-color: orange;
+  border: orange;
+}
+
+.navbar-light .navbar-brand {
+  color: orange;
+  font-size: x-large;
+}
+

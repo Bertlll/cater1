@@ -1,0 +1,241 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #868e96;
+}
+
+#front {
+  text-align: center;
+}
+
+#front. jumbtroton {
+  background-color: white;
+}
+
+#front .jumbotron {
+  background-color: rgba(255,255,255,255);
+  padding: 50px 0 0 20%;
+}
+
+#top-client {
+  background-color: black;
+}
+
+#top-client {
+  background-color: #262626;
+  height: 240px;
+  /*width: 500px;*/
+  /*max-height: 350px;*/
+  max-width: 50%;
+}
+
+#mid-client {
+  background-color: orange;
+  height: 190px;
+  max-width: 50%;
+}
+
+#btm-client {
+  background-color: #F5F5F5;
+  max-width: 50%;
+  height: 295px;
+  bottom: 0;
+}
+
+#right {
+  position: absolute;
+  right: 20%;
+  top: 40%;
+}
+
+#right-1 {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+}
+
+#cl-paragraph {
+  position: absolute;
+  right: 15%;
+  top: 6%;
+  font-size: 400%;
+  font-weight: bold;
+  color: orange;
+}
+
+#cl-right {
+  margin-bottom: -30px;
+}
+
+#cl-right-1 {
+  margin-bottom: -30px;
+}
+
+#cl-btn-confirm {
+  background-color: #F5F5F5;
+  color: orange;
+  font-weight: bold;
+}
+
+#cl-right-2 {
+  margin-bottom: -30px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+}
+
+#cl-confirm {
+  border-radius: 0px;
+  background-color: #F5F5F5;
+  color: orange;
+  border: 0px;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+#cl-right-3 {
+  color: #262626;
+  margin-bottom: -30px;
+}
+
+#cl-cater {
+  background-color: #262626;
+  border-radius: 0px;
+  border: 0px;
+  width: 100%;
+}
+
+#feeds-btm {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  color: orange;
+  font-weight: bolder;
+}
+
+#cl-header {
+  color: white;
+  font-weight: bolder;
+  top: 0;
+  /*margin-top: -15px;*/
+}
+
+#cl-fname {
+  color: white;
+}
+
+#cl-info1 {
+  border: 0px;
+}
+
+#cl-info2 {
+  color: white;
+  border-color: #262626;
+}
+
+#cl-info1 {
+  color: white;
+  border-color: #262626;
+}
+
+#tr-nocolor1 {
+  border: 0;
+}
+
+#tb-nocolor {
+  border: 0;
+  border-color: #262626;
+}
+
+.table td, .table th {
+  border-color: orange;
+}
+
+.table td, .table th {
+  border-color: #262626;
+}
+
+button, input {
+  width: 100%;
+}
+
+.container {
+  padding: 20px 80px 0px 80px;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#no-color {
+  border-color: white;
+}
+
+#italic1 {
+  font-style: italic;
+  border-color: #F5F5F5;
+  color: orange;
+}
+
+#bord-orange {
+  border-color: orange;
+}
+
+button, input {
+  border: 0px;
+}
+
+#italic3 {
+  font-style: italic;
+  color: white;
+  border-color: orange;
+}
+
+#bord-dirt {
+  border-color: #F5F5F5;
+}
+
+select {
+  width: 100%;
+}
+
+#italic2 {
+  font-style: italic;
+  border-color: orange;
+}
+
+#mid-cater {
+}
+
+#mid-cater {
+  background-color: #F5F5F5;
+  max-width: 50%;
+  height: 190px;
+}
+
+#btm-cater {
+  background-color: orange;
+  max-width: 50%;
+  height: 295px;
+}
+
+#title {
+  font-size: 10rem;
+  position: absolute;
+  color: orange;
+  padding-right: 10%;
+  z-index: -1;
+  right: 10%;
+  opacity: 0.5;
+}
+
+#top {
+  margin-top: 5%;
+  position: absolute;
+}
+
+#behind {
+  position: absolute;
+}
+
